@@ -1,5 +1,6 @@
 package greeting
 
-func HelloWorld() string { //Function that returns a string when called
+//HelloWorld Func that returns a string
+func HelloWorld() string {
 	return "Hello, World!"
 }
