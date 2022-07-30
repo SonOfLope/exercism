@@ -21,3 +21,5 @@ bob/
 gigasecond/
 tree-building/
 
+# Scripts
+*.sh
