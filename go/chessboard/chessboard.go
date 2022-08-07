@@ -24,6 +24,7 @@ func CountInFile(cb Chessboard, file int) int {
 	if file < 1 || file > 8 {
 		return 0
 	}
+
 	sum := 0
 	for _, square := range cb {
 		if square[file-1] {
