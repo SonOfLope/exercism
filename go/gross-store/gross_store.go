@@ -21,6 +21,7 @@ func NewBill() map[string]int {
 func AddItem(bill, units map[string]int, item, unit string) bool {
 	unitsItem, checkUnits := units[unit]
 	unitBill, checkBill := bill[item]
+
 	if !checkUnits {
 		return false
 	} else if !checkBill {
