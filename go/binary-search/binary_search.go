@@ -2,7 +2,6 @@ package binarysearch
 
 func SearchInts(slice []int, key int) int {
 	l, r := 0, len(slice)-1
-
 	for l <= r {
 		m := (l + r) / 2
 		if slice[m] < key {
